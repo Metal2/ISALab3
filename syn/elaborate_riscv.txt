@@ -1,0 +1,226 @@
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine riscv line 54 in file
+		'/home/isa19/Desktop/ISALab3/src/riscv.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| instruction_IF_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pc_out_IF_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  sum_if_out_IF_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine riscv line 128 in file
+		'/home/isa19/Desktop/ISALab3/src/riscv.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     rs2_ID_reg      | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pc_out_ID_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  sum_if_out_ID_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    funct3_ID_reg    | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+| read_data_1_ID_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+| read_data_2_ID_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+| imm_gen_out_ID_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  write_reg_ID_reg   | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     rs1_ID_reg      | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine riscv line 156 in file
+		'/home/isa19/Desktop/ISALab3/src/riscv.vhd'.
+==========================================================================================
+|         Register Name          |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+==========================================================================================
+| ctrl_alu_or_sum_ex_forw_ID_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        RegWrite_ID_reg         | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|         ALUSrc_ID_reg          | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        MemWrite_ID_reg         | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|          ALUOp_ID_reg          | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|        MemtoReg_ID_reg         | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|         MemRead_ID_reg         | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|          Jump_ID_reg           | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+==========================================================================================
+
+Inferred memory devices in process
+	in routine riscv line 276 in file
+		'/home/isa19/Desktop/ISALab3/src/riscv.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  write_reg_EX_reg   | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  sum_if_out_EX_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  sum_ex_out_EX_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+| read_data_2_EX_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  alu_result_EX_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   alu_zero_EX_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine riscv line 298 in file
+		'/home/isa19/Desktop/ISALab3/src/riscv.vhd'.
+==========================================================================================
+|         Register Name          |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+==========================================================================================
+| ctrl_alu_or_sum_ex_forw_EX_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        RegWrite_EX_reg         | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        MemWrite_EX_reg         | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        MemtoReg_EX_reg         | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|         MemRead_EX_reg         | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|          Jump_EX_reg           | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+==========================================================================================
+
+Inferred memory devices in process
+	in routine riscv line 325 in file
+		'/home/isa19/Desktop/ISALab3/src/riscv.vhd'.
+=========================================================================================
+|         Register Name         |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=========================================================================================
+|       write_reg_MEM_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      sum_if_out_MEM_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      sum_ex_out_MEM_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      alu_result_MEM_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+| read_data_data_memory_MEM_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+=========================================================================================
+
+Inferred memory devices in process
+	in routine riscv line 346 in file
+		'/home/isa19/Desktop/ISALab3/src/riscv.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  MemtoReg_MEM_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  RegWrite_MEM_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'riscv'.
+Information: Building the design 'N_bit_reg' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+
+Inferred memory devices in process
+	in routine N_bit_reg_N32 line 25 in file
+		'/home/isa19/Desktop/ISALab3/src/register.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     tmp_out_reg     | Flip-flop |  31   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     tmp_out_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'adder' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_file'. (HDL-193)
+
+Inferred memory devices in process
+	in routine register_file line 41 in file
+		'/home/isa19/Desktop/ISALab3/src/register_file.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       reg_reg       | Flip-flop | 1024  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+| register_file/62 |   32   |   32    |      5       |
+| register_file/63 |   32   |   32    |      5       |
+======================================================
+Presto compilation completed successfully.
+Information: Building the design 'imm_gen'. (HDL-193)
+
+Statistics for case statements in always block at line 27 in file
+	'/home/isa19/Desktop/ISALab3/src/imm_gen.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            29            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'control_unit'. (HDL-193)
+
+Statistics for case statements in always block at line 30 in file
+	'/home/isa19/Desktop/ISALab3/src/control_unit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            34            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 61 in file
+	'/home/isa19/Desktop/ISALab3/src/control_unit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            65            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'Hazard_detection_unit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'alu' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+
+Statistics for case statements in always block at line 79 in file
+	'/home/isa19/Desktop/ISALab3/src/ALU/alu.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            83            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'alu_control'. (HDL-193)
+
+Statistics for case statements in always block at line 16 in file
+	'/home/isa19/Desktop/ISALab3/src/ALU/alu_control.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+|            23            |    auto/auto     |
+|            35            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'forwarding_unit'. (HDL-193)
+
+Statistics for case statements in always block at line 32 in file
+	'/home/isa19/Desktop/ISALab3/src/forwarding_unit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            36            |    auto/auto     |
+|            40            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux_4to1' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'minority_comparator' instantiated from design 'alu_N32' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'equality_comparator' instantiated from design 'alu_N32' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'right_shift' instantiated from design 'alu_N32' with
+	the parameters "N=32". (HDL-193)
+
+Statistics for case statements in always block at line 21 in file
+	'/home/isa19/Desktop/ISALab3/src/ALU/right_shift.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            25            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'xor_operation' instantiated from design 'alu_N32' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'and_operation' instantiated from design 'alu_N32' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+1

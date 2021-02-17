@@ -1,0 +1,132 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'riscv' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : riscv
+Version: O-2018.06-SP4
+Date   : Mon Feb 15 20:14:15 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: write_reg_MEM_reg[0]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: alu_result_EX_reg[31]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  riscv              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  write_reg_MEM_reg[0]/CK (DFFR_X1)                       0.00       0.00 r
+  write_reg_MEM_reg[0]/Q (DFFR_X1)                        0.14       0.14 r
+  FORWARDING_U/rd_MEM[0] (forwarding_unit)                0.00       0.14 r
+  FORWARDING_U/U33/ZN (OR2_X1)                            0.05       0.18 r
+  FORWARDING_U/U21/ZN (OAI21_X1)                          0.04       0.22 f
+  FORWARDING_U/U20/ZN (INV_X1)                            0.03       0.25 r
+  FORWARDING_U/U3/ZN (AND4_X1)                            0.06       0.32 r
+  FORWARDING_U/U15/ZN (AND4_X2)                           0.06       0.38 r
+  FORWARDING_U/forwardA[0] (forwarding_unit)              0.00       0.38 r
+  MUX_FORWARDING_A/Sel[0] (mux_4to1_N32_2)                0.00       0.38 r
+  MUX_FORWARDING_A/U94/ZN (NOR2_X1)                       0.03       0.41 f
+  MUX_FORWARDING_A/U91/Z (CLKBUF_X1)                      0.04       0.45 f
+  MUX_FORWARDING_A/U46/ZN (AOI22_X1)                      0.05       0.50 r
+  MUX_FORWARDING_A/U16/ZN (NAND2_X1)                      0.04       0.54 f
+  MUX_FORWARDING_A/Z[1] (mux_4to1_N32_2)                  0.00       0.54 f
+  ALU_INSTANCE/A[1] (alu_N32)                             0.00       0.54 f
+  ALU_INSTANCE/adder_instance/A[1] (adder_N32_0)          0.00       0.54 f
+  ALU_INSTANCE/adder_instance/add_17/A[1] (adder_N32_0_DW01_add_0)
+                                                          0.00       0.54 f
+  ALU_INSTANCE/adder_instance/add_17/U1_1/CO (FA_X1)      0.11       0.65 f
+  ALU_INSTANCE/adder_instance/add_17/U1_2/CO (FA_X1)      0.09       0.74 f
+  ALU_INSTANCE/adder_instance/add_17/U1_3/CO (FA_X1)      0.09       0.83 f
+  ALU_INSTANCE/adder_instance/add_17/U1_4/CO (FA_X1)      0.09       0.92 f
+  ALU_INSTANCE/adder_instance/add_17/U1_5/CO (FA_X1)      0.09       1.01 f
+  ALU_INSTANCE/adder_instance/add_17/U1_6/CO (FA_X1)      0.10       1.11 f
+  ALU_INSTANCE/adder_instance/add_17/U12/ZN (NAND2_X1)
+                                                          0.04       1.15 r
+  ALU_INSTANCE/adder_instance/add_17/U3/ZN (NAND3_X1)     0.04       1.19 f
+  ALU_INSTANCE/adder_instance/add_17/U17/ZN (NAND2_X1)
+                                                          0.04       1.23 r
+  ALU_INSTANCE/adder_instance/add_17/U20/ZN (NAND3_X1)
+                                                          0.04       1.27 f
+  ALU_INSTANCE/adder_instance/add_17/U24/ZN (NAND2_X1)
+                                                          0.03       1.31 r
+  ALU_INSTANCE/adder_instance/add_17/U26/ZN (NAND3_X1)
+                                                          0.04       1.34 f
+  ALU_INSTANCE/adder_instance/add_17/U1_10/CO (FA_X1)     0.09       1.43 f
+  ALU_INSTANCE/adder_instance/add_17/U1_11/CO (FA_X1)     0.09       1.52 f
+  ALU_INSTANCE/adder_instance/add_17/U1_12/CO (FA_X1)     0.09       1.62 f
+  ALU_INSTANCE/adder_instance/add_17/U1_13/CO (FA_X1)     0.09       1.71 f
+  ALU_INSTANCE/adder_instance/add_17/U1_14/CO (FA_X1)     0.10       1.80 f
+  ALU_INSTANCE/adder_instance/add_17/U48/ZN (NAND2_X1)
+                                                          0.03       1.84 r
+  ALU_INSTANCE/adder_instance/add_17/U50/ZN (NAND3_X1)
+                                                          0.04       1.88 f
+  ALU_INSTANCE/adder_instance/add_17/U1_16/CO (FA_X1)     0.09       1.97 f
+  ALU_INSTANCE/adder_instance/add_17/U1_17/CO (FA_X1)     0.09       2.06 f
+  ALU_INSTANCE/adder_instance/add_17/U1_18/CO (FA_X1)     0.09       2.15 f
+  ALU_INSTANCE/adder_instance/add_17/U1_19/CO (FA_X1)     0.09       2.24 f
+  ALU_INSTANCE/adder_instance/add_17/U1_20/CO (FA_X1)     0.10       2.33 f
+  ALU_INSTANCE/adder_instance/add_17/U36/ZN (NAND2_X1)
+                                                          0.03       2.37 r
+  ALU_INSTANCE/adder_instance/add_17/U38/ZN (NAND3_X1)
+                                                          0.04       2.41 f
+  ALU_INSTANCE/adder_instance/add_17/U1_22/CO (FA_X1)     0.10       2.50 f
+  ALU_INSTANCE/adder_instance/add_17/U30/ZN (NAND2_X1)
+                                                          0.03       2.54 r
+  ALU_INSTANCE/adder_instance/add_17/U32/ZN (NAND3_X1)
+                                                          0.04       2.57 f
+  ALU_INSTANCE/adder_instance/add_17/U1_24/CO (FA_X1)     0.10       2.67 f
+  ALU_INSTANCE/adder_instance/add_17/U42/ZN (NAND2_X1)
+                                                          0.03       2.71 r
+  ALU_INSTANCE/adder_instance/add_17/U44/ZN (NAND3_X1)
+                                                          0.04       2.74 f
+  ALU_INSTANCE/adder_instance/add_17/U1_26/CO (FA_X1)     0.10       2.84 f
+  ALU_INSTANCE/adder_instance/add_17/U55/ZN (NAND2_X1)
+                                                          0.03       2.88 r
+  ALU_INSTANCE/adder_instance/add_17/U57/ZN (NAND3_X1)
+                                                          0.04       2.92 f
+  ALU_INSTANCE/adder_instance/add_17/U61/ZN (NAND2_X1)
+                                                          0.03       2.96 r
+  ALU_INSTANCE/adder_instance/add_17/U63/ZN (NAND3_X1)
+                                                          0.04       2.99 f
+  ALU_INSTANCE/adder_instance/add_17/U1_29/CO (FA_X1)     0.09       3.08 f
+  ALU_INSTANCE/adder_instance/add_17/U1_30/CO (FA_X1)     0.09       3.17 f
+  ALU_INSTANCE/adder_instance/add_17/U6/ZN (XNOR2_X1)     0.06       3.23 f
+  ALU_INSTANCE/adder_instance/add_17/SUM[31] (adder_N32_0_DW01_add_0)
+                                                          0.00       3.23 f
+  ALU_INSTANCE/adder_instance/S[31] (adder_N32_0)         0.00       3.23 f
+  ALU_INSTANCE/U190/ZN (NAND2_X1)                         0.03       3.26 r
+  ALU_INSTANCE/U187/ZN (NAND2_X1)                         0.02       3.28 f
+  ALU_INSTANCE/Result[31] (alu_N32)                       0.00       3.28 f
+  alu_result_EX_reg[31]/D (DFFR_X1)                       0.01       3.29 f
+  data arrival time                                                  3.29
+
+  clock MY_CLK (rise edge)                                3.40       3.40
+  clock network delay (ideal)                             0.00       3.40
+  clock uncertainty                                      -0.07       3.33
+  alu_result_EX_reg[31]/CK (DFFR_X1)                      0.00       3.33 r
+  library setup time                                     -0.04       3.29
+  data required time                                                 3.29
+  --------------------------------------------------------------------------
+  data required time                                                 3.29
+  data arrival time                                                 -3.29
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
